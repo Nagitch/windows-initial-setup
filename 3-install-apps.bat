@@ -10,6 +10,9 @@
 @REM Twitter (PWA)
 @REM Pinterest (PWA)
 @REM Inkdrop
+@REM Affinity Designer
+@REM Davinci Resolve
+@REM NVidia Broadcast
 @REM -----
 
 @REM Brave Browser
@@ -26,8 +29,6 @@ choco install adobe-creative-cloud -y
 
 @REM Blender
 choco install blender -y
-
-@REM Davinci Resolve
 
 @REM Discord
 choco install discord -y
@@ -47,11 +48,20 @@ choco install git -y
 @REM Google Drive
 choco install google-drive-file-stream -y
 
+@REM Greenshot
+choco install greenshot -y
+
 @REM Honey View
 choco install honeyview.install -y
 
+@REM iCloud
+choco install icloud -y
+
 @REM iTunes
 choco install itunes -y
+
+@REM LINE
+choco install line -y
 
 @REM Microsoft VSCode
 choco install vscode -y
@@ -61,6 +71,9 @@ choco install firefox -y
 
 @REM MPC-BE x64
 choco install mpc-be -y
+
+@REM Mouse Without Borders
+choco install mousewithoutborders -y
 
 @REM NVIDIA Geforce Experience
 choco install geforce-experience -y

@@ -1,4 +1,4 @@
-@REM Install apps. below are on hand
+@REM Install apps. belows are on hand
 @REM -----
 @REM Ableton Live
 @REM GameSynth Tool
@@ -9,13 +9,8 @@
 @REM Xbox (Game Pass)
 @REM Twitter (PWA)
 @REM Pinterest (PWA)
+@REM Inkdrop
 @REM -----
-
-@REM Chololatey
-@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
-
-@REM WSL2
-wsl --install
 
 @REM Brave Browser
 choco install brave -y

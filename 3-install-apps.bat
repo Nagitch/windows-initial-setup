@@ -4,8 +4,6 @@
 choco install brave -y
 @REM Set default browser on hand Sync setting
 start ms-settings:defaultapps
-@REM Browser Social Login
-start "https://google.com"
 
 @REM Chrome
 choco install googlechrome -y

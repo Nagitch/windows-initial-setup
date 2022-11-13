@@ -1,22 +1,11 @@
-@REM Install apps. belows are on hand
-@REM -----
-@REM Ableton Live
-@REM GameSynth Tool
-@REM Node JS
-@REM Office Excel, Word
-@REM MAYA44 eX Driver
-@REM PureRef
-@REM Xbox (Game Pass)
-@REM Twitter (PWA)
-@REM Pinterest (PWA)
-@REM Inkdrop
-@REM Affinity Designer
-@REM Davinci Resolve
-@REM NVidia Broadcast
-@REM -----
+@REM Install apps available on chocolatey
 
 @REM Brave Browser
 choco install brave -y
+@REM Set default browser on hand Sync setting
+start ms-settings:defaultapps
+@REM Browser Social Login
+start "https://google.com"
 
 @REM Chrome
 choco install googlechrome -y

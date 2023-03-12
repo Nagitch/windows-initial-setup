@@ -1,2 +1,3 @@
-@REM @REM Install apps available on chocolatey
-choco install choco-packages.config
+@REM Install apps available on chocolatey
+@REM via command `choco export`
+choco install packages.config

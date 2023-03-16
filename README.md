@@ -1,4 +1,6 @@
-# PC 初期化
+# Windows initial setup
+
+Nagitch 自分向け Windows クリーンインストールの手順
 
 ## バックアップ
 

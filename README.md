@@ -22,13 +22,15 @@ Nagitch 自分向け Windows クリーンインストールの手順
 
 ### Windows とドライバのインストール
 
+- インストールメディアの作成
+  - https://www.microsoft.com/ja-jp/windowsinsider/cleaninstall
 - Windows11 インストール
-- ESI Maya 44ex ドライバ(ASIO 含む)インストール
-- WSL インストール　管理者権限
+- HDSPe AIO Pro ドライバインストール
+- WSL インストール 管理者権限
 
 ### アプリインストール
 
-- choco インストール　管理者権限
+- choco インストール 管理者権限
 - デフォルトブラウザを Brave にする
   - Brave Sync に PC を登録
 - Google, ソーシャルログイン, Web サービスのログイン

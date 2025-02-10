@@ -4,7 +4,9 @@ Nagitch 自分向け Windows クリーンインストールの手順
 
 ## バックアップ
 
-- Choco パッケージのエクスポート（将来的には wget にすると思う）
+- Choco パッケージのエクスポート（将来的には wget にすると思う） 
+  - `choco export`
+  - `winget export -o winget-export.json`
 - 手動インストールしたアプリのインストーラをバックアップ
 - Brave Sync に参加してるか確認
   - 今の PC
